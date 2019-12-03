@@ -12,4 +12,4 @@ const config: Options = {
     "useTabs": false
 };
 
-export default config;
+export = config;
