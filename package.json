@@ -1,0 +1,30 @@
+{
+  "name": "prettier-config",
+  "version": "0.0.1",
+  "description": "personal prettier config",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --target es5 --lib es2015 index.ts",
+    "prepublishOnly": "npm run build",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwharris/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Ian Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwharris/prettier-config/issues"
+  },
+  "homepage": "https://github.com/iwharris/prettier-config#readme",
+  "devDependencies": {
+    "@types/prettier": "^1.19.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  }
+}
